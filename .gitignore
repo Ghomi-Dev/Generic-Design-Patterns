@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/GenericDesignPatterns/obj/Debug
+/GenericDesignPatterns/Properties
+/GenericDesignPatterns.v3.ncrunchsolution.user
+/.vs/GenericDesignPatterns/v15
