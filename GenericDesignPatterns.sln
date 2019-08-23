@@ -3,7 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns", "GenericDesignPatterns\GenericDesignPatterns.csproj", "{0A7E3C15-24FA-44CA-8AD9-28F2A9863E7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns", "src\GenericDesignPatterns\GenericDesignPatterns.csproj", "{0A7E3C15-24FA-44CA-8AD9-28F2A9863E7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{7FED1EF9-8CFF-4CB0-82DB-3FE2F0C866CB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{40EDD93B-B028-4380-A96F-1A7941179678}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{17C65A2D-CA9C-44CA-8464-B78EEE437023}"
+	ProjectSection(SolutionItems) = preProject
+		doc\README.md = doc\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D811DC12-E1B8-4E0E-A37C-AE4E5D975500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Behavioral.Tests.Unit", "test\GenericDesignPatterns.Behavioral.Tests.Unit\GenericDesignPatterns.Behavioral.Tests.Unit.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Creational.Tests.Unit", "test\GenericDesignPatterns.Creational.Tests.Unit\GenericDesignPatterns.Creational.Tests.Unit.csproj", "{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Structural.Tests.Unit", "test\GenericDesignPatterns.Structural.Tests.Unit\GenericDesignPatterns.Structural.Tests.Unit.csproj", "{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +36,27 @@ Global
 		{0A7E3C15-24FA-44CA-8AD9-28F2A9863E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A7E3C15-24FA-44CA-8AD9-28F2A9863E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A7E3C15-24FA-44CA-8AD9-28F2A9863E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A7E3C15-24FA-44CA-8AD9-28F2A9863E7E} = {40EDD93B-B028-4380-A96F-1A7941179678}
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47} = {D811DC12-E1B8-4E0E-A37C-AE4E5D975500}
+		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240} = {D811DC12-E1B8-4E0E-A37C-AE4E5D975500}
+		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6} = {D811DC12-E1B8-4E0E-A37C-AE4E5D975500}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {042CB5B1-DF8E-4A7B-A514-A0245D50D2BA}
