@@ -20,11 +20,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{17C65A2D-CA9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D811DC12-E1B8-4E0E-A37C-AE4E5D975500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Behavioral.Tests.Unit", "test\GenericDesignPatterns.Behavioral.Tests.Unit\GenericDesignPatterns.Behavioral.Tests.Unit.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Tests.Unit", "test\GenericDesignPatterns.Tests.Unit\GenericDesignPatterns.Tests.Unit.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Creational.Tests.Unit", "test\GenericDesignPatterns.Creational.Tests.Unit\GenericDesignPatterns.Creational.Tests.Unit.csproj", "{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Sample", "src\GenericDesignPatterns.Sample\GenericDesignPatterns.Sample.csproj", "{F0FC6A6B-EB1E-4E3A-AA9D-B1056285C96E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Structural.Tests.Unit", "test\GenericDesignPatterns.Structural.Tests.Unit\GenericDesignPatterns.Structural.Tests.Unit.csproj", "{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Sample.Tests.Unit", "test\GenericDesignPatterns.Sample.Tests.Unit\GenericDesignPatterns.Sample.Tests.Unit.csproj", "{DBB62E9B-7878-48A4-8F90-3BE5B667760C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,14 +40,14 @@ Global
 		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FC6A6B-EB1E-4E3A-AA9D-B1056285C96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FC6A6B-EB1E-4E3A-AA9D-B1056285C96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FC6A6B-EB1E-4E3A-AA9D-B1056285C96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FC6A6B-EB1E-4E3A-AA9D-B1056285C96E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB62E9B-7878-48A4-8F90-3BE5B667760C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB62E9B-7878-48A4-8F90-3BE5B667760C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB62E9B-7878-48A4-8F90-3BE5B667760C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB62E9B-7878-48A4-8F90-3BE5B667760C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,8 +55,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0A7E3C15-24FA-44CA-8AD9-28F2A9863E7E} = {40EDD93B-B028-4380-A96F-1A7941179678}
 		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47} = {D811DC12-E1B8-4E0E-A37C-AE4E5D975500}
-		{AD616D2B-B3AA-45F9-B8F8-3CB6C1DCE240} = {D811DC12-E1B8-4E0E-A37C-AE4E5D975500}
-		{E52E288D-8D2C-47D4-8324-BFD2C59EEAF6} = {D811DC12-E1B8-4E0E-A37C-AE4E5D975500}
+		{F0FC6A6B-EB1E-4E3A-AA9D-B1056285C96E} = {40EDD93B-B028-4380-A96F-1A7941179678}
+		{DBB62E9B-7878-48A4-8F90-3BE5B667760C} = {D811DC12-E1B8-4E0E-A37C-AE4E5D975500}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {042CB5B1-DF8E-4A7B-A514-A0245D50D2BA}

@@ -1,0 +1,9 @@
+C:\GithubProjects\GenericDesignPatterns\src\GenericDesignPatterns.Sample\bin\Debug\GenericDesignPatterns.Sample.dll
+C:\GithubProjects\GenericDesignPatterns\src\GenericDesignPatterns.Sample\bin\Debug\GenericDesignPatterns.Sample.pdb
+C:\GithubProjects\GenericDesignPatterns\src\GenericDesignPatterns.Sample\bin\Debug\GenericDesignPatterns.dll
+C:\GithubProjects\GenericDesignPatterns\src\GenericDesignPatterns.Sample\bin\Debug\GenericDesignPatterns.pdb
+C:\GithubProjects\GenericDesignPatterns\src\GenericDesignPatterns.Sample\obj\Debug\GenericDesignPatterns.Sample.csprojAssemblyReference.cache
+C:\GithubProjects\GenericDesignPatterns\src\GenericDesignPatterns.Sample\obj\Debug\GenericDesignPatterns.Sample.csproj.CoreCompileInputs.cache
+C:\GithubProjects\GenericDesignPatterns\src\GenericDesignPatterns.Sample\obj\Debug\GenericDesignPatterns.Sample.csproj.CopyComplete
+C:\GithubProjects\GenericDesignPatterns\src\GenericDesignPatterns.Sample\obj\Debug\GenericDesignPatterns.Sample.dll
+C:\GithubProjects\GenericDesignPatterns\src\GenericDesignPatterns.Sample\obj\Debug\GenericDesignPatterns.Sample.pdb

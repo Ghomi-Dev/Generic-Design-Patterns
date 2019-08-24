@@ -8,7 +8,7 @@ Separated in 3 parts
 - [ ] Builder
 - [ ] Factory Method
 - [ ] Prototype
-- [ ] Singleton
+- [X] Singleton
    
 2- Behavioral
 - [ ] Adapter
