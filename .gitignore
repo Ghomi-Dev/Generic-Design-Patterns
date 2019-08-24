@@ -82,3 +82,8 @@ test/GenericDesignPatterns.Structural.Tests.Unit/obj/
 /_NCrunch_GenericDesignPatterns/GenericDesignPatterns.executiontimes.cache
 /_NCrunch_GenericDesignPatterns/GenericDesignPatterns.crunchsolution.cache
 /test/GenericDesignPatterns.Sample.Tests.Unit/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/src/GenericDesignPatterns.Sample/obj/Debug
+/test/GenericDesignPatterns.Sample.Tests.Unit/bin/Debug
+/test/GenericDesignPatterns.Sample.Tests.Unit/obj/Debug
+/test/GenericDesignPatterns.Tests.Unit/bin/Debug
+/test/GenericDesignPatterns.Tests.Unit/obj/Debug
