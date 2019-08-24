@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns", "src\GenericDesignPatterns\GenericDesignPatterns.csproj", "{0A7E3C15-24FA-44CA-8AD9-28F2A9863E7E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{7FED1EF9-8CFF-4CB0-82DB-3FE2F0C866CB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{7FED1EF9-8CFF-4CB0-82DB-3FE2F0C866CB}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		LICENSE = LICENSE
