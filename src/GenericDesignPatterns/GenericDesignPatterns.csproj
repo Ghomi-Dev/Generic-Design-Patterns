@@ -15,6 +15,7 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Version>0.1.0-alpha</Version>
     <Title>Generic Design Patterns</Title>
+    <Language>en-US</Language>
     <NeutralLanguage>en-US</NeutralLanguage>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
