@@ -45,12 +45,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GenericDesignPatterns\GenericDesignPatterns.csproj">
-      <Project>{0a7e3c15-24fa-44ca-8ad9-28f2a9863e7e}</Project>
-      <Name>GenericDesignPatterns</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
