@@ -3,7 +3,7 @@ using GenericDesignPatterns.Creational;
 using GenericDesignPatterns.Samples.SampleClasses;
 using Xunit;
 
-namespace GenericDesignPatterns.Sample.Tests.Unit.Creational
+namespace GenericDesignPatterns.Samples.Tests.Unit.Creational
 {
     public class SingletonTests
     {

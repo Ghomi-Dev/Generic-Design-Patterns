@@ -89,8 +89,11 @@
     <Folder Include="Structural\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\src\GenericDesignPatterns\GenericDesignPatterns.csproj">
-      <Project>{0a7e3c15-24fa-44ca-8ad9-28f2a9863e7e}</Project>
+      <Project>{b626ace3-b898-4a3a-959e-29e211f0557b}</Project>
       <Name>GenericDesignPatterns</Name>
     </ProjectReference>
   </ItemGroup>

@@ -42,6 +42,10 @@
 *.idb
 *.pdb
 
+# NuGet Packages
+*.nupkg
+*.nuspec
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
@@ -50,10 +54,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-/GenericDesignPatterns/obj/Debug
 /GenericDesignPatterns/Properties
 /GenericDesignPatterns.v3.ncrunchsolution.user
 /.vs/GenericDesignPatterns/v15
+
+# design
+/designs/*
+!/designs/gdp.ico
 
 packages/
 
@@ -96,3 +103,9 @@ test/GenericDesignPatterns.Structural.Tests.Unit/obj/
 /test/GenericDesignPatterns.Samples.Tests.Unit/GenericDesignPatterns.Samples.Tests.Unit.v3.ncrunchproject
 /TestResults/fd075413-14e5-467d-b0d5-5936967e8d39
 /.vs/GenericDesignPatterns/v16
+/src/GenericDesignPatterns.Samples/obj/Release
+/test/GenericDesignPatterns.Samples.Tests.Unit/bin/Release
+/test/GenericDesignPatterns.Tests.Unit/bin/Release
+/test/GenericDesignPatterns.Samples.Tests.Unit/obj/Release
+/test/GenericDesignPatterns.Tests.Unit/obj/Release
+/src/GenericDesignPatterns/bin/Release/netstandard2.0

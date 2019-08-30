@@ -52,5 +52,11 @@
     <Folder Include="CreationalSamples\" />
     <Folder Include="StructuralSamples\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GenericDesignPatterns\GenericDesignPatterns.csproj">
+      <Project>{b626ace3-b898-4a3a-959e-29e211f0557b}</Project>
+      <Name>GenericDesignPatterns</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

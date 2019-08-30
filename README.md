@@ -1,5 +1,5 @@
 # Generic Design Patterns
-Generic Design Patterns project is generic implementation of popular design patterns as .Net PCL
+Generic Design Patterns project is generic implementation of popular design patterns as .Net Standard
 
 Separated in 3 parts
 

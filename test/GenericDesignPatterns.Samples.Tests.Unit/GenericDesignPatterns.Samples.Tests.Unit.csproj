@@ -94,7 +94,7 @@
       <Name>GenericDesignPatterns.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\src\GenericDesignPatterns\GenericDesignPatterns.csproj">
-      <Project>{0A7E3C15-24FA-44CA-8AD9-28F2A9863E7E}</Project>
+      <Project>{b626ace3-b898-4a3a-959e-29e211f0557b}</Project>
       <Name>GenericDesignPatterns</Name>
     </ProjectReference>
   </ItemGroup>
