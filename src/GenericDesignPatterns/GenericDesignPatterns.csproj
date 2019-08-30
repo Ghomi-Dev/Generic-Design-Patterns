@@ -3,21 +3,29 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Realdream</Company>
-    <Description>Generic implementation of pupular Design Patterns usable in .net project</Description>
+    <Description>Generic implementation of popular Design Patterns usable in .net project</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/Ghomi-Dev/GenericDesignPatterns.git</RepositoryUrl>
     <PackageProjectUrl>https://github.com/Ghomi-Dev/GenericDesignPatterns</PackageProjectUrl>
-    <Copyright>Copyright ©  2019</Copyright>
+    <Copyright>Copyright © 2019</Copyright>
     <PackageIconUrl>https://github.com/Ghomi-Dev/GenericDesignPatterns/raw/master/designs/gdp.ico</PackageIconUrl>
     <PackageTags>C# .Net DesignPattern Generic</PackageTags>
-    <PackageReleaseNotes>Singleton creational design patten</PackageReleaseNotes>
+    <PackageReleaseNotes>Singleton creational design pattern</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>0.1.0-alpha</Version>
+    <Title>Generic Design Patterns</Title>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\..\output\</OutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="GenericDesignPatterns.nuspec" />
+  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Behavioral\" />
