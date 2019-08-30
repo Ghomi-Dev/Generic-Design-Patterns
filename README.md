@@ -33,3 +33,31 @@ Separated in 3 parts
 - [ ] Visitor 
 
 * note: implemented design patterns will be checked (to show the progress) 
+
+## Singleton Example
+    public class Student
+    {
+        public int Age { get; set; }
+    }
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            SetStudentAge(10);
+            PrintProps();
+            Console.ReadKey();
+        }
+
+        private static void SetStudentAge(int ageParam)
+        {
+            Singleton<Student>.Instance.Age = ageParam;
+        }
+
+        static void PrintProps()
+        {
+            Console.WriteLine(Singleton<Student>.Instance.Age);
+        }
+    }
+

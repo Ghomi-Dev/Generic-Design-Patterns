@@ -8,11 +8,15 @@
     <RepositoryUrl>https://github.com/Ghomi-Dev/GenericDesignPatterns.git</RepositoryUrl>
     <PackageProjectUrl>https://github.com/Ghomi-Dev/GenericDesignPatterns</PackageProjectUrl>
     <Copyright>Copyright ©  2019</Copyright>
-    <PackageIconUrl>https://github.com/Ghomi-Dev/GenericDesignPatterns/blob/develop/designs/gdp.ico</PackageIconUrl>
+    <PackageIconUrl>https://github.com/Ghomi-Dev/GenericDesignPatterns/raw/master/designs/gdp.ico</PackageIconUrl>
     <PackageTags>C# .Net DesignPattern Generic</PackageTags>
     <PackageReleaseNotes>Singleton creational design patten</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\output\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

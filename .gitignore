@@ -61,6 +61,7 @@ dkms.conf
 # design
 /designs/*
 !/designs/gdp.ico
+!/designs/PackIcon.png
 
 packages/
 
@@ -109,3 +110,4 @@ test/GenericDesignPatterns.Structural.Tests.Unit/obj/
 /test/GenericDesignPatterns.Samples.Tests.Unit/obj/Release
 /test/GenericDesignPatterns.Tests.Unit/obj/Release
 /src/GenericDesignPatterns/bin/Release/netstandard2.0
+/output/netstandard2.0
