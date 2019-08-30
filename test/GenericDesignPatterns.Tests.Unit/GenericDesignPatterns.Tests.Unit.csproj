@@ -50,7 +50,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Creational\SingletonTests.cs" />
-    <Compile Include="Samples\SampleClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -86,14 +85,17 @@
     <Analyzer Include="..\..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\GenericDesignPatterns\GenericDesignPatterns.csproj">
-      <Project>{0a7e3c15-24fa-44ca-8ad9-28f2a9863e7e}</Project>
-      <Name>GenericDesignPatterns</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Behavioral\" />
     <Folder Include="Structural\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\GenericDesignPatterns\GenericDesignPatterns.csproj">
+      <Project>{b626ace3-b898-4a3a-959e-29e211f0557b}</Project>
+      <Name>GenericDesignPatterns</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

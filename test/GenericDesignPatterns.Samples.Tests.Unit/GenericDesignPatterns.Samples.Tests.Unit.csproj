@@ -9,8 +9,8 @@
     <ProjectGuid>{DBB62E9B-7878-48A4-8F90-3BE5B667760C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GenericDesignPatterns.Sample.Tests.Unit</RootNamespace>
-    <AssemblyName>GenericDesignPatterns.Sample.Tests.Unit</AssemblyName>
+    <RootNamespace>GenericDesignPatterns.Samples.Tests.Unit</RootNamespace>
+    <AssemblyName>GenericDesignPatterns.Samples.Tests.Unit</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,6 +49,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Creational\SingletonTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -85,13 +86,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\" />
-    <Folder Include="Creational\" />
     <Folder Include="Structural\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\GenericDesignPatterns.Sample\GenericDesignPatterns.Sample.csproj">
+    <ProjectReference Include="..\..\src\GenericDesignPatterns.Samples\GenericDesignPatterns.Samples.csproj">
       <Project>{f0fc6a6b-eb1e-4e3a-aa9d-b1056285c96e}</Project>
-      <Name>GenericDesignPatterns.Sample</Name>
+      <Name>GenericDesignPatterns.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\GenericDesignPatterns\GenericDesignPatterns.csproj">
+      <Project>{b626ace3-b898-4a3a-959e-29e211f0557b}</Project>
+      <Name>GenericDesignPatterns</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
