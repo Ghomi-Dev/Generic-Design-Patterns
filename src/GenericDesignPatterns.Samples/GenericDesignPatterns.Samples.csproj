@@ -7,8 +7,8 @@
     <ProjectGuid>{F0FC6A6B-EB1E-4E3A-AA9D-B1056285C96E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GenericDesignPatterns.Sample</RootNamespace>
-    <AssemblyName>GenericDesignPatterns.Sample</AssemblyName>
+    <RootNamespace>GenericDesignPatterns.Samples</RootNamespace>
+    <AssemblyName>GenericDesignPatterns.Samples</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Samples\SampleClass.cs" />
+    <Compile Include="SampleClasses\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -54,9 +54,9 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\" />
-    <Folder Include="Creational\" />
-    <Folder Include="Structural\" />
+    <Folder Include="BehavioralSamples\" />
+    <Folder Include="CreationalSamples\" />
+    <Folder Include="StructuralSamples\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

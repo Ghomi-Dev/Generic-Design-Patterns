@@ -1,5 +1,4 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -23,9 +22,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D811DC12-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Tests.Unit", "test\GenericDesignPatterns.Tests.Unit\GenericDesignPatterns.Tests.Unit.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Sample", "src\GenericDesignPatterns.Sample\GenericDesignPatterns.Sample.csproj", "{F0FC6A6B-EB1E-4E3A-AA9D-B1056285C96E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Samples", "src\GenericDesignPatterns.Samples\GenericDesignPatterns.Samples.csproj", "{F0FC6A6B-EB1E-4E3A-AA9D-B1056285C96E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Sample.Tests.Unit", "test\GenericDesignPatterns.Sample.Tests.Unit\GenericDesignPatterns.Sample.Tests.Unit.csproj", "{DBB62E9B-7878-48A4-8F90-3BE5B667760C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Samples.Tests.Unit", "test\GenericDesignPatterns.Samples.Tests.Unit\GenericDesignPatterns.Samples.Tests.Unit.csproj", "{DBB62E9B-7878-48A4-8F90-3BE5B667760C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
