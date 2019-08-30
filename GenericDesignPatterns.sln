@@ -6,7 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{7FED1EF9-8CFF-4CB0-82DB-3FE2F0C866CB}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		src\GenericDesignPatterns\GenericDesignPatterns.nuspec = src\GenericDesignPatterns\GenericDesignPatterns.nuspec
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
@@ -27,8 +26,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns.Samples.Tests.Unit", "test\GenericDesignPatterns.Samples.Tests.Unit\GenericDesignPatterns.Samples.Tests.Unit.csproj", "{DBB62E9B-7878-48A4-8F90-3BE5B667760C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDesignPatterns", "src\GenericDesignPatterns\GenericDesignPatterns.csproj", "{B626ACE3-B898-4A3A-959E-29E211F0557B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetPackage", "NugetPackage", "{FF0DB18C-25AA-43DB-824D-46429F428A2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
