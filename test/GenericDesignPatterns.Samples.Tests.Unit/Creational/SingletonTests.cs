@@ -19,7 +19,7 @@ namespace GenericDesignPatterns.Samples.Tests.Unit.Creational
         }
 
         [Fact]
-        public void Should_have_accessible_vale_when_using_instance()
+        public void Should_have_accessible_value_when_using_instance()
         {
             //Arrange
             Singleton<Student>.Instance.Name = "John";
