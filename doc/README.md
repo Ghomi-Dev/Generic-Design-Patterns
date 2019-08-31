@@ -1,6 +1,10 @@
 # Generic Design Patterns
 Generic Design Patterns project is generic implementation of popular design patterns as .Net Standard
 
+you may install this package with this command:
+
+    Install-Package GenericDesignPatterns -Version 0.1.0-alfa00003
+
 Separated in 3 parts
 
 1- Creational
