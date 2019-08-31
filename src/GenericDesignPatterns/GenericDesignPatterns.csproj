@@ -10,7 +10,7 @@
     <Copyright>Copyright © 2019</Copyright>
     <PackageIconUrl>https://github.com/Ghomi-Dev/GenericDesignPatterns/raw/master/designs/gdp.ico</PackageIconUrl>
     <PackageTags>C# .Net DesignPattern Generic</PackageTags>
-    <PackageReleaseNotes>Singleton creational design pattern</PackageReleaseNotes>
+    <PackageReleaseNotes>Builder creational design pattern implemented</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Version>0.1.0-alpha</Version>
